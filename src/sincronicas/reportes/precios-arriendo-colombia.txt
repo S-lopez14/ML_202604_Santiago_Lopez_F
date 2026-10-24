@@ -1,7 +1,7 @@
 REPORTE DEL DATAFRAME
 ============================================================
 Filas: 1460
-Columnas: 10
+Columnas: 11
 Duplicados: 0
 
 Columnas y tipos:
@@ -15,6 +15,7 @@ Columnas y tipos:
 - p75: int64
 - con_parqueadero: int64
 - con_telefono: int64
+- barrio_norm: object
 
 Valores nulos por columna:
 - fecha: 0
@@ -27,6 +28,7 @@ Valores nulos por columna:
 - p75: 0
 - con_parqueadero: 0
 - con_telefono: 0
+- barrio_norm: 0
 
 Estadísticas numéricas:
           avisos           p25       mediana           p75  con_parqueadero  con_telefono
