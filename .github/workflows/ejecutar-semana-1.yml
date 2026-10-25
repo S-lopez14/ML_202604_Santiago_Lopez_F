@@ -55,6 +55,28 @@ jobs:
             --inplace \
             --ExecutePreprocessor.timeout=1800 \
             Semana_1SINC.ipynb
+  
+      - name: Ejecutar Semana_2SINC.ipynb
+        working-directory: src/sincronicas
+        run: |
+          source ../../.venv/bin/activate
+          jupyter nbconvert \
+            --to notebook \
+            --execute \
+            --inplace \
+            --ExecutePreprocessor.timeout=1800 \
+            Semana_2SINC.ipynb
+
+      - name: Ejecutar Semana_3SINC.ipynb
+        working-directory: src/sincronicas
+        run: |
+          source ../../.venv/bin/activate
+          jupyter nbconvert \
+            --to notebook \
+            --execute \
+            --inplace \
+            --ExecutePreprocessor.timeout=1800 \
+            Semana_3SINC.ipynb
 
       - name: Confirmar cambios generados
         run: |
