@@ -4,4 +4,5 @@ matplotlib==3.9.4
 ipykernel==6.29.5
 datasets
 nbconvert
+matplotlib
 scikit-learn
