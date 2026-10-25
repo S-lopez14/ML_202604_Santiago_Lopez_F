@@ -1,0 +1,40 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 1460
+Columnas: 10
+Duplicados: 0
+
+Columnas y tipos:
+- fecha: object
+- ciudad_id: object
+- ciudad: object
+- barrio: object
+- avisos: int64
+- p25: int64
+- mediana: int64
+- p75: int64
+- con_parqueadero: int64
+- con_telefono: int64
+
+Valores nulos por columna:
+- fecha: 0
+- ciudad_id: 0
+- ciudad: 0
+- barrio: 0
+- avisos: 0
+- p25: 0
+- mediana: 0
+- p75: 0
+- con_parqueadero: 0
+- con_telefono: 0
+
+Estadísticas numéricas:
+          avisos           p25       mediana           p75  con_parqueadero  con_telefono
+count   1460.000  1.460000e+03  1.460000e+03  1.460000e+03         1460.000      1460.000
+mean     147.713  2.444034e+06  3.084563e+06  4.002385e+06           98.788        52.418
+std      595.177  1.656497e+06  2.281845e+06  3.211595e+06          497.104       213.097
+min       15.000  4.000000e+05  4.000000e+05  4.000000e+05            0.000         0.000
+25%       23.000  1.400000e+06  1.600000e+06  1.950000e+06           10.000         4.000
+50%       40.000  1.962500e+06  2.500000e+06  3.000000e+06           22.000        13.000
+75%      103.250  2.953125e+06  3.700000e+06  4.700000e+06           66.000        37.250
+max    17124.000  1.700000e+07  2.050000e+07  2.500000e+07        15907.000      6599.000
